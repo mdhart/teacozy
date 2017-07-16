@@ -1,1 +1,43 @@
-css stuff
+html {
+  background-color: black;
+  color: white;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  border-bottom: 1px solid white;
+}
+.logo {
+  display: block;
+}
+.link {
+  color: white;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 100px;
+  justify-content: center;
+}
+.mission {
+  display: block;
+  background-image: url("../../resources/images/img-mission-background.jpg");
+  height: 800px;
+  width: 1200px;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.banner {
+  display: block;
+  background-color: black;
+  text-align: center;
+  margin-top: 400px;
+
+
+}
