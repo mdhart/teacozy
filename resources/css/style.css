@@ -19,25 +19,49 @@ header {
 }
 .main-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   position: relative;
   top: 100px;
   justify-content: center;
 }
+/*.top-container {
+  align-content: center;
+}*/
 .mission {
-  display: block;
+  display: flex;;
   background-image: url("../../resources/images/img-mission-background.jpg");
   height: 800px;
   width: 1200px;
   flex-direction: column;
-  justify-content: space-around;
-
+  position: relative;
+  margin: 0 auto;
 }
 .banner {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: black;
   text-align: center;
   margin-top: 400px;
-
-
+}
+.featured-tea {
+  display: flex;
+  flex-direction: column;
+  background-size: contain;
+  position: relative;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row {
+  display: flex;
+  width: 1000px;
+  align-items: center;
+  justify-content: center;
+}
+.tea {
+  margin: 0 20px;
 }
