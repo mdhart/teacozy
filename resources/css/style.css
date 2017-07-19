@@ -65,3 +65,21 @@ header {
 .tea {
   margin: 0 20px;
 }
+.location {
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  width: 1200px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.store {
+  display: inline-flex;
+  flex-direction: column;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  height: 250px;
+  width: 300px;
+}
