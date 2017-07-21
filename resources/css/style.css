@@ -12,7 +12,7 @@ header {
   width: 100%;
   position: fixed;
   z-index: 5;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid seashell;
   background-color: black;
   top: 0;
   left: 0;
@@ -20,9 +20,12 @@ header {
 }
 .logo {
   display: block;
+  margin-left: 10px;
 }
-header nav {
-  display: block;
+nav span {
+  margin-right: 10px;
+  margin-left: 10px;
+  text-decoration: underline;
 }
 .link {
   color: white;
@@ -31,27 +34,37 @@ header nav {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 100px;
   justify-content: center;
+  padding-top: 2px;
 }
-
-.mission {
-  display: flex;
+.top-container {
+  display: block;
   background-image: url("../../resources/images/img-mission-background.jpg");
-  height: 800px;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
   width: 1200px;
-  flex-direction: column;
-  position: relative;
+  /*align-items: center;*/
   margin: 0 auto;
 }
-.banner {
+.mission {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+}
+.banner {
+  display: block;
   flex-direction: column;
   align-items: center;
   background-color: black;
   text-align: center;
-  margin-top: 400px;
+  justify-content: space-around;
+  width: 100%
 }
+
 .featured-tea {
   display: flex;
   flex-direction: column;
@@ -72,10 +85,13 @@ header nav {
 }
 .featured-tea{
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .tea {
   margin: 0px 10px;
-  padding-bottom: 50px;
+}
+.tea h3 {
+  margin: 10px;
 }
 .location {
   background-image: url("../../resources/images/img-locations-background.jpg");
@@ -85,8 +101,10 @@ header nav {
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  position: relative;
   /*padding-top: 50px;*/
 }
+
 .store {
   display: inline-flex;
   flex-direction: column;
@@ -97,12 +115,14 @@ header nav {
   opacity: 1;
   background-color: black;
   margin: 15px 20px;
+  position: relative;
 }
 .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  height: 200px;
 }
 footer {
   text-align: left;
